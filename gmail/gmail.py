@@ -1,11 +1,11 @@
-import re
 import imaplib
 
 from mailbox import Mailbox
 from utf import encode as encode_utf7, decode as decode_utf7
 from exceptions import *
 
-class Gmail():
+class Gmail():elinayangjust@gmail.com
+    
     # GMail IMAP defaults
     GMAIL_IMAP_HOST = 'imap.gmail.com'
     GMAIL_IMAP_PORT = 993
